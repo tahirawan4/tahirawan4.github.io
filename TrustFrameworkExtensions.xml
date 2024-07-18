@@ -1,0 +1,12 @@
+<ContentDefinitions>
+    <ContentDefinition Id="api.signuporsignin">
+        <LoadUri>https://tahirawan4.github.io/signup.html</LoadUri>
+        <RecoveryUri>https://tahirawan4.github.io/signup.html</RecoveryUri>
+        <DataUri>urn:com:microsoft:aad:b2c:elements:contract:selfasserted:1.2.0</DataUri>
+        <Metadata>
+            <Item Key="DisplayName">Sign Up and Sign In</Item>
+        </Metadata>
+    </ContentDefinition>
+    <!-- Add other content definitions for other user journey steps -->
+</ContentDefinitions>
+
